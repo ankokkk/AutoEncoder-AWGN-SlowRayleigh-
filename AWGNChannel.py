@@ -210,7 +210,6 @@ plt.plot(kn,psnr10,label = "SNR = 10dB")
 plt.plot(kn,psnr20,label = "SNR = 20dB")
 plt.legend(bbox_to_anchor=(1.05, 1), loc='upper left', borderaxespad=0.)
 plt.xlabel("k/n")
-
 plt.ylabel("PSNR")
 plt.title("AWGN Channel")
 plt.show()  
